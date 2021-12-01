@@ -2,7 +2,7 @@
  
 A tiny chat bot written in under 10 lines of code.
 
-This was just a fun experiment to see how many lines of code I could squeeze a chat bot into. Its a very basic chat bot, just enough to have some novelty value. It emulates what might be considered "coffee conversation", that is, routine responses to routine questions, with some built-in awkwardness. There's no persistence beyond the process in the main code, but there is a variant "-with-memory" that does create a file for learnt response mappings. The bot should theoretically get better over time after many conversations with different people. A measure of improvement could be: how many responses it can solicit from a user.
+This was just a fun experiment to see how many lines of code I could squeeze a chat bot into. Its very basic, just enough to have some novelty value. It emulates what might be considered "coffee conversation", that is, routine responses to routine questions, with some built-in awkwardness. There's no persistence beyond the process in the main code, but there is a variant "-with-memory" that does create a file for learnt response mappings. The bot should theoretically get better over time after many conversations with different people. A measure of improvement could be: how many responses it can solicit from a user.
 
 ## How to use it
 Just keep talking to it. As it learns appropriate responses, it will start responding in more interesting ways. You should restart the conversation often. To restart a conversation, just say hello and go from there.
